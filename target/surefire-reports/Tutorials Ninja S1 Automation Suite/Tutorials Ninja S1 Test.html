@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>TestNG:  Tutorials Ninja S1 Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tutorials Ninja S1 Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 01 17:23:54 PDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>154 seconds (154050 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest.registerWithAllFields()'><b>registerWithAllFields</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest@38d8f54a</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: chowdhurygs@rediffmail.com, Shajlee1@</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LinksPageTest.linkTests()'><b>linkTests</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LinksPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LinksPageTest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: chowdhurygsa@gmail.com, Shajlee123</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LandingPageTest.presenceOfQAFoxLink()'><b>presenceOfQAFoxLink</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LandingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LandingPageTest@2d7275fc</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: chowdhurygs@rediffmail.com, Shajlee1@</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_InboxPageTest.loginAndPresenceofMyAccountMessage()'><b>loginAndPresenceofMyAccountMessage</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_InboxPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_InboxPageTest@3c19aaa5</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: nawshinaniqa@gmail.com, Kiyaan123</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: chowdhurygs@gmail.com, Shajlee1234</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LogoutPageTest.logoutAndPresenceOfLogoutMessage()'><b>logoutAndPresenceOfLogoutMessage</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LogoutPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LogoutPageTest@409bf450</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: gkcmono@yahoo.com, poultry13</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: nawshinaniqa@gmail.com, Kiyaan123</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: golamchodhury@gmail.com, Shajlee123!</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest.registerWithNoFields()'><b>registerWithNoFields</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest@38d8f54a</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_SearchPageTest.searchWithInvalidProduct()'><b>searchWithInvalidProduct</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_SearchPageTest@49e53c76</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LandingPageTest.getPageTitleAndCurrentUrl()'><b>getPageTitleAndCurrentUrl</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LandingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LandingPageTest@2d7275fc</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: rifi_luver@hotmail.com, Aniqa1@</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithInvalidUsernamevalidPassword()'><b>loginWithInvalidUsernamevalidPassword</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithInvalidCredentials()'><b>loginWithInvalidCredentials</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: shajlee@yahoo.com, Potter1@</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithEmptyCrendtials()'><b>loginWithEmptyCrendtials</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: shajlee@yahoo.com, Potter1@</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: gkcmono@yahoo.com, poultry13</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: chowdhurygsa@gmail.com, Shajlee123</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidUsernameInvalidPassword()'><b>loginWithValidUsernameInvalidPassword</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: chowdhurygs@gmail.com, Shajlee1234</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_SearchPageTest.searchWithValidProduct()'><b>searchWithValidProduct</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_SearchPageTest@49e53c76</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsingDataProvider()'><b>loginWithValidCredentialsUsingDataProvider</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: golamchodhury@gmail.com, Shajlee123!</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest.loginWithValidCredentialsUsinExcelSheet()'><b>loginWithValidCredentialsUsinExcelSheet</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest<br>Parameters: rifi_luver@hotmail.com, Aniqa1@</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_LoginPageTest@3349e9bb</td></tr>
+<tr>
+<td title='com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest.registerWithMandotaryFields()'><b>registerWithMandotaryFields</b><br>Test class: com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tutorialsninja.s1.testcases.TutorialsNinja_S1_RegisterPageTest@38d8f54a</td></tr>
+</table><p>
+</body>
+</html>
